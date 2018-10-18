@@ -10,8 +10,7 @@ Package.onUse((api) => {
     api.use([
         'check',
         'ecmascript',
-        'modules',
-        'underscore',
+        'modules'
     ], ['client', 'server']);
     api.mainModule('lib/publish_composite.js', 'server');
     api.addFiles([
